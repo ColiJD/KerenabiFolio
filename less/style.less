@@ -1,0 +1,30 @@
+@primary-bg-color: #61A146;
+@primary-tx-color: #ffffff;
+@secondary-bg-color: #13250e;
+@secondary-tx-color: #82bd69;
+@color-form: black;
+
+
+@import "helpers.less";
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    .no-PM();
+    height: 100%;
+    background-color: @primary-bg-color;
+    color: @primary-tx-color;
+    margin-bottom: 1.5rem;
+
+    main {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@import "header.less";
+@import "sobreMi.less";
+@import "archivo.less";
+@import "footer.less";

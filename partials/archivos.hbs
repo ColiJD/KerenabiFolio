@@ -1,0 +1,17 @@
+<section class="archivo">
+    {{#each TipoArchivo}}
+    <section id="{{name}}">
+        <h3>{{name}}</h3>
+        <div>
+            {{#filtrarPorTipo ../archivos name}}
+            <div>
+                <h4>{{name}}</h4>
+                <img src="{{img}}" alt="">
+                <a target="_blank" href="{{url}}" rel="noopener noreferrer" title="{{descripcion}}">Abrir</a>
+                <p>{{descripcion}}</p>
+            </div>
+            {{/filtrarPorTipo}}
+        </div>
+    </section>
+    {{/each}}
+</section>
