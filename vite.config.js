@@ -3,7 +3,7 @@ import * as glob from 'glob';
 import path, { resolve } from 'node:path';
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import htmlPurge from 'vite-plugin-purgecss';
-import handlebars from 'vite-plugin-handlebars'
+import handlebars from 'vite-plugin-handlebars';
 import handlerBarsContext from './variables.js';
 
 export default defineConfig({
@@ -25,6 +25,11 @@ export default defineConfig({
         handlebars({
             partialDirectory: resolve(__dirname, 'partials'),
             context: handlerBarsContext,
+            order: 'pre', // Si es necesario reemplazar enforce
+            handler: (content) => { // Si es necesario reemplazar transform
+                // Código de transformación
+                return content;
+            },
             helpers: {
                 filtrarPorTipo: function (archivos, tipo, options) {
                     var result = '';
