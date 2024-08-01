@@ -49,8 +49,8 @@ export default defineConfig({
         }),
         htmlPurge({
             // Opciones para purgar CSS no utilizado
-            content: ['./src/**/*.html'], // Archivos HTML a analizar para purga de CSS
-            safelist: ['safe-class'], // Clases CSS que deben mantenerse
+            content: ['./src/**/*.html', './src/**/*.js'],
+            safelist: ['safe-class', /^.*$/],
         }),
         ViteMinifyPlugin({
             // Opciones para la minificación de JavaScript y CSS
