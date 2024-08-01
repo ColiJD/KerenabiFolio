@@ -1,13 +1,20 @@
 <section class="archivo">
+    <!-- Itera sobre el array TipoArchivo -->
     {{#each TipoArchivo}}
     <section id="{{name}}">
+        <!-- Título de la sección basado en el nombre del tipo de imagen -->
         <h3>{{name}}</h3>
         <div>
+            <!-- Filtra imagenes por tipo y genera un bloque para cada imagen -->
             {{#filtrarPorTipo ../archivos name}}
             <div>
+                <!-- Nombre del archivo -->
                 <h4>{{name}}</h4>
+                <!-- Imagen del archivo -->
                 <img src="{{img}}" alt="">
+                <!-- Enlace para abrir el archivo en una nueva pestaña -->
                 <a target="_blank" href="{{url}}" rel="noopener noreferrer" title="{{descripcion}}">Abrir</a>
+                <!-- Descripción del archivo -->
                 <p>{{descripcion}}</p>
             </div>
             {{/filtrarPorTipo}}

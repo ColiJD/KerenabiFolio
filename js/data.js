@@ -1,7 +1,7 @@
 export const navegacion = [
     {
         name: "Inicio",
-        url: "/"
+        url: "/KerenabiFolio/index.html"
     }, {
         name: "Horario",
         url: "#Horario"
@@ -91,13 +91,55 @@ export const archivos = [{
     tipo: "Anexos",
     url: "https://docs.google.com/document/d/1BJgROxQ0gJNaZYgEYWV1CLr1Cdbl0eNI/edit?usp=drive_link&ouid=106784725131533333281&rtpof=true&sd=true"
 },
-// .{
-//     name: " ",
-//     descripcion: "",
-//     img: "",
-//     tipo: "",
-//     url: ""
-// },
+{
+    name: "Planificación de ciencias sociales",
+    descripcion: "octavo grado",
+    img: "/img/planes.webp",
+    tipo: "Planes",
+    url: "https://docs.google.com/document/d/1_N-3BKsJIAFZRGkHizmPn8gJIMXGj-oe/edit"
+},
+{
+    name: "Examen de Tecnoligia",
+    descripcion: "",
+    img: "/img/anexo.webp",
+    tipo: "Anexos",
+    url: "https://docs.google.com/document/d/1aWhemjbFf_a_KynlY6enXOd5-CAF10gv/edit?usp=drive_link&ouid=100886155814366088811&rtpof=true&sd=true"
+},
+{
+    name: "Examen de Tecnoligia",
+    descripcion: "",
+    img: "/img/anexo.webp",
+    tipo: "Anexos",
+    url: "https://docs.google.com/document/d/1TUnoQzdyMhX5JQtB26bzICsk3kAJfHSg/edit?usp=drive_link&ouid=100886155814366088811&rtpof=true&sd=true"
+},
+{
+    name: "Examen de Tecnoligia",
+    descripcion: "",
+    img: "/img/anexo.webp",
+    tipo: "Anexos",
+    url: "https://docs.google.com/document/d/11nn7Uip0bv2zjKePnWEZvnw4cRFYU4SN/edit?usp=drive_link&ouid=100886155814366088811&rtpof=true&sd=true"
+},
+{
+    name: "Examen de Artistica",
+    descripcion: "",
+    img: "/img/anexo.webp",
+    tipo: "Anexos",
+    url: "https://docs.google.com/document/d/1sEZ5hSDR-yYRBzV84YmzyOoN4xc3C1oa/edit?usp=drive_link&ouid=100886155814366088811&rtpof=true&sd=true"
+},
+{
+    name: "Examen de Artistica",
+    descripcion: "",
+    img: "/img/anexo.webp",
+    tipo: "Anexos",
+    url: "https://docs.google.com/document/d/1G3EGGwmck9QVDQRN875wujnSivzkLzBn/edit?usp=drive_link&ouid=100886155814366088811&rtpof=true&sd=true"
+},
+{
+    name: "Examen de Artistica",
+    descripcion: "",
+    img: "/img/anexo.webp",
+    tipo: "Anexos",
+    url: "https://docs.google.com/document/d/1_nWBTMYrFyxWJo6pOjtn50BBhWszDRkb/edit?usp=drive_link&ouid=100886155814366088811&rtpof=true&sd=true"
+},
 
 
 ];
